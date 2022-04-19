@@ -8,10 +8,14 @@ const l2 = prompt('Inserire parola 2');
 console.log(l2,l2.length);
 
 if(l1.length > l2.length){
-    console.log('Prima parola e` maggiore di seconda parola =',l1, '>' ,l2);
+    console.log('Prima parola e` maggiore di seconda parola');
+    console.log(l2);
+    console.log(l1);
 
 }else if(l2.length > l1.length){
-    console.log('Seconda parola e` maggiore di prima parola =',l2, '>',l1);
+    console.log('Seconda parola e` maggiore di prima parola');
+    console.log(l1);
+    console,log(l2);
 }else{
     console.log('Dimensioni uguali')
 } 
